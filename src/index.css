@@ -1,0 +1,274 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.navbar .social-icons a {
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar .social-icons a:hover {
+  color: #ddd;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+background-color: black;
+  color: white;
+
+/* background-image: url("https://res.cloudinary.com/dtc4lwuck/image/upload/v1734894078/DALL_E_2024-12-23_00.28.46_-_A_futuristic_website_background_design_inspired_by_computer_and_frontend_development_themes._It_features_a_smooth_gradient_transitioning_from_teal_to_rnyqna.webp"); */
+}
+
+
+.profile-img{
+  width: 40px;
+  background: white;
+  border-radius: 50% ;
+  outline: none;
+
+}
+
+.about {
+  background-color:black;
+}
+
+
+.projects {
+  background-color:black;
+}
+.skills{
+  background-color: black;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+.contact {
+  background-color:black;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.profile-card {
+  background: rgba(18, 18, 18, 0.3);
+  border-radius: 15px;
+  box-shadow: 8px 4px 8px rgba(84, 168, 50);
+  max-width: 500px;
+  width: 90%;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.pimg {
+  position: relative; 
+  max-height: 358px;
+  max-width: 358px;
+  border-radius: 50%;
+  width: 95%;
+  height: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+  
+  box-shadow: -10px 0 20px rgba(84, 168, 50); 
+
+}
+.pimg-lg {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+
+  
+  box-shadow: 5px 5px 10px  10px rgba(84, 168, 50);
+
+}
+.pimg-lg:hover{
+  position: relative;
+  transform: scale(1.2) ;
+
+  
+  box-shadow: 5px 5px 10px  30px rgba(84, 168, 50);
+
+}
+ 
+
+
+.t-orange{
+  color: orangered;
+}
+
+.pro{
+
+  background: rgba(0, 0, 0, 0.7) !important;
+  color:white !important;
+  text-shadow: 0 0 25px orangered;
+  font-weight: bold;
+}
+
+.navborder{
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.7) ;
+
+}
+.profilebtn{
+
+  width: auto;
+  padding: 10px;
+text-decoration: none;
+  border: 3px solid greenyellow !important;
+  border-radius: 20px !important;
+
+  font-weight: bold;
+ 
+}
+
+.profilebtn:hover{
+
+background-color:  greenyellow !important;
+
+color: black !important;
+
+}
+.social-i a{
+ width: 50px;
+ height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+  border: 3px solid greenyellow ;
+  border-radius: 50% ;
+  color: whitesmoke ;
+  font-weight: bold;
+  font-size: 48px  ;
+}
+.social-i a:hover{
+
+  background-color:  greenyellow ;
+  color: black;
+  font-size: 50px  ;
+}
+
+.navlinkel{
+
+  font-size: 18px !important;
+  
+
+}
+
+
+
+
+.navlinkel:hover,
+.active{
+  color: orangered !important;
+  border-bottom: 3px solid orange !important;
+  transition: transform 0.5s ease-in-out;
+}
+.font-head{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+}
+.about-textt{
+  color: rgb(118, 227, 16);
+  font-weight: 500;
+}

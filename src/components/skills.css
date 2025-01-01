@@ -1,0 +1,67 @@
+
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color:black;
+
+  }
+@media screen and (max-width:768px) {
+    .card-skills:nth-child(even){
+
+        box-shadow: -8px 4px 8px rgba(84, 168, 50);
+    
+    
+      }
+    
+}
+ 
+  
+  .card-skills {
+    
+  background: rgba(0, 0, 0, 0.7) ;
+  box-shadow: 8px 4px 8px rgba(84, 168, 50);
+
+    width: calc(100% - 40px);
+    max-width: 300px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-range {
+    width: 100%;
+    margin-top: 10px;
+    appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(275deg, #4caf50 0%, red var(--value), #ddd var(--value), #ddd 100%);
+    outline: none;
+    cursor: default;
+  }
+  
+  .skill-range::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 50px;
+    border-radius: 50%;
+    background: yellowgreen;
+    cursor: pointer;
+  }
+  

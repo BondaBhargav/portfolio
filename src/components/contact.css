@@ -1,0 +1,144 @@
+.contact-card{
+ display: flex;
+ flex-direction: column;
+    width: 90%;
+   
+    padding: 20px;
+   color:white;
+ 
+
+   border:3px solid greenyellow;
+   border-radius: 10px;
+   align-items: center;
+    background-color: rgba(55, 54, 54, 0.3)
+    
+
+}
+.section-con {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+
+  }
+.contact-heading{
+ position: relative;
+
+ color: blue;
+ border-radius: 30px;
+}
+.textarea{
+    height: 200px;
+}
+#input{
+    border-radius: 30px;
+}
+.label{
+    text-align: start;
+    align-self: self-start;
+    margin-left: 10px;
+}
+.btn-submit{
+background-color: transparent;
+color: white;
+outline: none;
+border: 2px solid greenyellow;
+border-radius: 10px;
+height: 50px;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+width: 100%;
+margin-top: 10px;
+
+}
+.btnafter{
+animation: submitbtn 5s  ease-in 0.3s 1 normal forwards;
+}
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: greenyellow;
+}
+@keyframes submitbtn {
+    0%{
+        text-align: start; 
+    }
+50%{
+    text-align: center;
+}
+100%{
+    text-align: end;
+    
+}
+}
+
+.top{
+    width: 98%;
+}
+@media screen and (min-width:992px) {
+    .top{
+        width: 50%;
+    }
+    hr{
+    
+       min-height: 70vh;
+       width: 10px;
+       background-color: yellowgreen;
+    
+    }
+    .contactimg{
+        width: 400px;
+        height: 50vh;
+        align-self: center;
+    }
+}
+
+.contactsocialbox a{
+    color: white;
+     
+}
+.contact-info {
+    padding: 1rem;
+    background-color:transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: white  ;
+  }
+  
+  .info-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-item {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+ 
+  
+  .info-item span,
+  .info-item a {
+    color: #007bff; /* Accent color for text links */
+    text-decoration: none;
+  }
+  
+  .info-item a:hover {
+    text-decoration: underline;
+  }
+  
